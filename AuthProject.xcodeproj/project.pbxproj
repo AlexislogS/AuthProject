@@ -3,27 +3,53 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93032061CD48BACD6F1DED37 /* Pods_AuthProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95E67FEB3F0132CE5F996C12 /* Pods_AuthProject.framework */; };
 		EA16C025250AABCC00A2711C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA16C024250AABCC00A2711C /* AppDelegate.swift */; };
 		EA16C027250AABCC00A2711C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA16C026250AABCC00A2711C /* SceneDelegate.swift */; };
-		EA16C029250AABCC00A2711C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA16C028250AABCC00A2711C /* ViewController.swift */; };
-		EA16C02C250AABCC00A2711C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA16C02A250AABCC00A2711C /* Main.storyboard */; };
 		EA16C02E250AABCE00A2711C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA16C02D250AABCE00A2711C /* Assets.xcassets */; };
 		EA16C031250AABCE00A2711C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA16C02F250AABCE00A2711C /* LaunchScreen.storyboard */; };
+		EA16C03C250AAC8400A2711C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA16C03B250AAC8400A2711C /* Constants.swift */; };
+		EA16C03E250AACD700A2711C /* SignScreenFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA16C03D250AACD700A2711C /* SignScreenFactory.swift */; };
+		EA16C040250AACF200A2711C /* ViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA16C03F250AACF200A2711C /* ViewControllerFactory.swift */; };
+		EA16C043250AAD2300A2711C /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA16C042250AAD2300A2711C /* AuthViewController.swift */; };
+		EA16C045250AAD7A00A2711C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA16C044250AAD7A00A2711C /* LoginViewController.swift */; };
+		EA16C048250AADBA00A2711C /* FieldsValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA16C047250AADBA00A2711C /* FieldsValidator.swift */; };
+		EA16C04B250AADDB00A2711C /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA16C04A250AADDB00A2711C /* FirebaseManager.swift */; };
+		EA16C04E250AADFC00A2711C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA16C04D250AADFC00A2711C /* User.swift */; };
+		EA16C051250AAE6100A2711C /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA16C050250AAE6100A2711C /* RegisterViewController.swift */; };
+		EA16C053250AAE7C00A2711C /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA16C052250AAE7C00A2711C /* UserViewController.swift */; };
+		EA16C055250AB28800A2711C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA16C054250AB28800A2711C /* GoogleService-Info.plist */; };
+		EA16C057250AB37800A2711C /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA16C056250AB37800A2711C /* UIView+.swift */; };
+		EA16C059250AB38F00A2711C /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA16C058250AB38F00A2711C /* UIViewController+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09F2182564325CB0DA31D940 /* Pods-AuthProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuthProject.release.xcconfig"; path = "Target Support Files/Pods-AuthProject/Pods-AuthProject.release.xcconfig"; sourceTree = "<group>"; };
+		95E67FEB3F0132CE5F996C12 /* Pods_AuthProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AuthProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA16C021250AABCC00A2711C /* AuthProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuthProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA16C024250AABCC00A2711C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA16C026250AABCC00A2711C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EA16C028250AABCC00A2711C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EA16C02B250AABCC00A2711C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA16C02D250AABCE00A2711C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA16C030250AABCE00A2711C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA16C032250AABCE00A2711C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA16C03B250AAC8400A2711C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EA16C03D250AACD700A2711C /* SignScreenFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignScreenFactory.swift; sourceTree = "<group>"; };
+		EA16C03F250AACF200A2711C /* ViewControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerFactory.swift; sourceTree = "<group>"; };
+		EA16C042250AAD2300A2711C /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		EA16C044250AAD7A00A2711C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EA16C047250AADBA00A2711C /* FieldsValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldsValidator.swift; sourceTree = "<group>"; };
+		EA16C04A250AADDB00A2711C /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		EA16C04D250AADFC00A2711C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EA16C050250AAE6100A2711C /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		EA16C052250AAE7C00A2711C /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		EA16C054250AB28800A2711C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EA16C056250AB37800A2711C /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		EA16C058250AB38F00A2711C /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
+		F5C8479B43A88E1F798A83C9 /* Pods-AuthProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuthProject.debug.xcconfig"; path = "Target Support Files/Pods-AuthProject/Pods-AuthProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +57,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93032061CD48BACD6F1DED37 /* Pods_AuthProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		89C85785B07F6F076BB3B0EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5C8479B43A88E1F798A83C9 /* Pods-AuthProject.debug.xcconfig */,
+				09F2182564325CB0DA31D940 /* Pods-AuthProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9F8CBDCEDEBB9425FB64FFBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95E67FEB3F0132CE5F996C12 /* Pods_AuthProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EA16C018250AABCC00A2711C = {
 			isa = PBXGroup;
 			children = (
 				EA16C023250AABCC00A2711C /* AuthProject */,
 				EA16C022250AABCC00A2711C /* Products */,
+				89C85785B07F6F076BB3B0EC /* Pods */,
+				9F8CBDCEDEBB9425FB64FFBE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +102,98 @@
 		EA16C023250AABCC00A2711C /* AuthProject */ = {
 			isa = PBXGroup;
 			children = (
-				EA16C024250AABCC00A2711C /* AppDelegate.swift */,
-				EA16C026250AABCC00A2711C /* SceneDelegate.swift */,
-				EA16C028250AABCC00A2711C /* ViewController.swift */,
-				EA16C02A250AABCC00A2711C /* Main.storyboard */,
-				EA16C02D250AABCE00A2711C /* Assets.xcassets */,
-				EA16C02F250AABCE00A2711C /* LaunchScreen.storyboard */,
-				EA16C032250AABCE00A2711C /* Info.plist */,
+				EA16C04F250AAE0500A2711C /* Miodels */,
+				EA16C041250AAD0800A2711C /* Factories */,
+				EA16C046250AAD9000A2711C /* Controllers */,
+				EA16C04C250AADE800A2711C /* Halpres */,
+				EA16C049250AADC300A2711C /* Uitilities */,
+				EA16C05A250AB3A800A2711C /* Extensions */,
+				EA16C039250AABF100A2711C /* Resourses */,
+				EA16C038250AABD900A2711C /* Application */,
+				EA16C03A250AABFC00A2711C /* Configuration */,
 			);
 			path = AuthProject;
+			sourceTree = "<group>";
+		};
+		EA16C038250AABD900A2711C /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				EA16C024250AABCC00A2711C /* AppDelegate.swift */,
+				EA16C026250AABCC00A2711C /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		EA16C039250AABF100A2711C /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				EA16C03B250AAC8400A2711C /* Constants.swift */,
+				EA16C02D250AABCE00A2711C /* Assets.xcassets */,
+				EA16C02F250AABCE00A2711C /* LaunchScreen.storyboard */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		EA16C03A250AABFC00A2711C /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				EA16C032250AABCE00A2711C /* Info.plist */,
+				EA16C054250AB28800A2711C /* GoogleService-Info.plist */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		EA16C041250AAD0800A2711C /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				EA16C03D250AACD700A2711C /* SignScreenFactory.swift */,
+				EA16C03F250AACF200A2711C /* ViewControllerFactory.swift */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		EA16C046250AAD9000A2711C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EA16C042250AAD2300A2711C /* AuthViewController.swift */,
+				EA16C044250AAD7A00A2711C /* LoginViewController.swift */,
+				EA16C050250AAE6100A2711C /* RegisterViewController.swift */,
+				EA16C052250AAE7C00A2711C /* UserViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EA16C049250AADC300A2711C /* Uitilities */ = {
+			isa = PBXGroup;
+			children = (
+				EA16C047250AADBA00A2711C /* FieldsValidator.swift */,
+			);
+			path = Uitilities;
+			sourceTree = "<group>";
+		};
+		EA16C04C250AADE800A2711C /* Halpres */ = {
+			isa = PBXGroup;
+			children = (
+				EA16C04A250AADDB00A2711C /* FirebaseManager.swift */,
+			);
+			path = Halpres;
+			sourceTree = "<group>";
+		};
+		EA16C04F250AAE0500A2711C /* Miodels */ = {
+			isa = PBXGroup;
+			children = (
+				EA16C04D250AADFC00A2711C /* User.swift */,
+			);
+			path = Miodels;
+			sourceTree = "<group>";
+		};
+		EA16C05A250AB3A800A2711C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EA16C056250AB37800A2711C /* UIView+.swift */,
+				EA16C058250AB38F00A2711C /* UIViewController+.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +203,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA16C035250AABCE00A2711C /* Build configuration list for PBXNativeTarget "AuthProject" */;
 			buildPhases = (
+				168F9172B397633FBF9FB8F7 /* [CP] Check Pods Manifest.lock */,
 				EA16C01D250AABCC00A2711C /* Sources */,
 				EA16C01E250AABCC00A2711C /* Frameworks */,
 				EA16C01F250AABCC00A2711C /* Resources */,
+				B499D15B5AA818E22F5D3DB4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +258,79 @@
 			files = (
 				EA16C031250AABCE00A2711C /* LaunchScreen.storyboard in Resources */,
 				EA16C02E250AABCE00A2711C /* Assets.xcassets in Resources */,
-				EA16C02C250AABCC00A2711C /* Main.storyboard in Resources */,
+				EA16C055250AB28800A2711C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		168F9172B397633FBF9FB8F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AuthProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B499D15B5AA818E22F5D3DB4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AuthProject/Pods-AuthProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AuthProject/Pods-AuthProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AuthProject/Pods-AuthProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EA16C01D250AABCC00A2711C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA16C029250AABCC00A2711C /* ViewController.swift in Sources */,
+				EA16C059250AB38F00A2711C /* UIViewController+.swift in Sources */,
+				EA16C045250AAD7A00A2711C /* LoginViewController.swift in Sources */,
+				EA16C053250AAE7C00A2711C /* UserViewController.swift in Sources */,
+				EA16C051250AAE6100A2711C /* RegisterViewController.swift in Sources */,
 				EA16C025250AABCC00A2711C /* AppDelegate.swift in Sources */,
+				EA16C03E250AACD700A2711C /* SignScreenFactory.swift in Sources */,
+				EA16C04B250AADDB00A2711C /* FirebaseManager.swift in Sources */,
+				EA16C040250AACF200A2711C /* ViewControllerFactory.swift in Sources */,
 				EA16C027250AABCC00A2711C /* SceneDelegate.swift in Sources */,
+				EA16C048250AADBA00A2711C /* FieldsValidator.swift in Sources */,
+				EA16C043250AAD2300A2711C /* AuthViewController.swift in Sources */,
+				EA16C057250AB37800A2711C /* UIView+.swift in Sources */,
+				EA16C04E250AADFC00A2711C /* User.swift in Sources */,
+				EA16C03C250AAC8400A2711C /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EA16C02A250AABCC00A2711C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EA16C02B250AABCC00A2711C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EA16C02F250AABCE00A2711C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,11 +458,12 @@
 		};
 		EA16C036250AABCE00A2711C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5C8479B43A88E1F798A83C9 /* Pods-AuthProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UG5F626PKK;
-				INFOPLIST_FILE = AuthProject/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AuthProject/Configuration/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +477,12 @@
 		};
 		EA16C037250AABCE00A2711C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09F2182564325CB0DA31D940 /* Pods-AuthProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UG5F626PKK;
-				INFOPLIST_FILE = AuthProject/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AuthProject/Configuration/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
