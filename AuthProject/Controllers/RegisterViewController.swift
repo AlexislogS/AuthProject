@@ -28,6 +28,7 @@ final class RegisterViewController: UIViewController, SignScreenFactory {
     private lazy var passwordTextField: UITextField = {
         let textField = makeTextField(with: "Password")
         configure(textFiled: textField)
+        textField.enablesReturnKeyAutomatically = true
         return textField
     }()
     private lazy var signUpButton: UIButton = {
